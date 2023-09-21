@@ -1,0 +1,12 @@
+console.log("Hello world!");
+const items=[
+    {name: 'egg' , price: 5} ,
+    {name: 'bread', price: 50},
+    {name: 'veggies', price: 30},
+];
+
+const price= items.map((it)=>it.price);
+const name =items.map((bg)=>bg.name);
+
+console.log(price);
+console.log(name);
